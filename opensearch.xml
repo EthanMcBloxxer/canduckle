@@ -1,0 +1,11 @@
+---
+---
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Canduckle</ShortName>
+  <Description>Canduckle, a Candle search engine with DuckDuckGo !bang support</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">{{ '/favicon.ico' | absolute_url }}</Image>
+  <Image width="16" height="16" type="image/png">{{ '/favicon/favicon-16x16.png' | absolute_url }}</Image>
+  <Url type="text/html" template="{{ site.url }}/?query={searchTerms}&amp;source=opensearch" />
+  <Url type="application/x-suggestions+json" template="https://api.candle.to/api/autocomplete?format=opensearch&amp;q={searchTerms}" />
+</OpenSearchDescription>
