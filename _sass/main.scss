@@ -13,3 +13,10 @@ html, body {
 	display: flex;
 	flex-direction: column;
 }
+
+::-webkit-scrollbar {background-color: $backgroundColor;}
+::-webkit-scrollbar-thumb {background-color: $backgroundColor;}
+::-webkit-scrollbar-thumb:hover {background-color: lighten($backgroundColor, 10%);}
+::-webkit-scrollbar-thumb:active {background-color: lighten($backgroundColor, 15%);}
+::-webkit-scrollbar-corner {background-color: $backgroundColor;}
+* {scrollbar-color: $backgroundColor lighten($backgroundColor, 10%);}
