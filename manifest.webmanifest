@@ -1,7 +1,7 @@
 {
  "name": "Canduckle",
  "short_name": "Canduckle",
- "description": "A Candle search engine with DuckDuckGo !bang support"
+ "description": "A Candle search engine with DuckDuckGo !bang support",
  "start_url": ".",
  "background-color": "#171717",
  "icons": [
